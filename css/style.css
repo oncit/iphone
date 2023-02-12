@@ -46,6 +46,9 @@ ul{
     flex-grow: 1;
     flex-basis: 0;
     text-align: right;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 29px;
 }
 
 .menu-item {
@@ -175,4 +178,27 @@ padding-bottom: 150px;
     padding: 16px 81px;
     font-weight: 400;
     cursor: pointer;
+}
+.footer{
+background-color: #0A0A0A;
+}
+
+.footer-link{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.footer-inner{
+color: #717171;
+display: flex;
+align-items: center;
+justify-content: space-b etween;
+padding: 50px 0;
+}
+
+@media (max-width: 1200px){
+ .headline-img {
+    min-width: 100%;
+ }
+
 }
